@@ -1,0 +1,23 @@
+# Per-document-type toggles for which derivative artifacts Project 1 generates.
+default:
+  semantic_chunk: true
+  contextual_chunk: false
+  abstractive_summary: false
+  raptor_summary: false
+  qa_pair: false
+  factoid: false
+
+document_types:
+  pdf:
+    semantic_chunk: true
+    contextual_chunk: true
+    abstractive_summary: true
+    raptor_summary: true
+    qa_pair: true
+    factoid: true
+  html:
+    semantic_chunk: true
+    contextual_chunk: true
+    abstractive_summary: true
+  txt:
+    semantic_chunk: true

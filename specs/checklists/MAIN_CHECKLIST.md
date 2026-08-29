@@ -12,8 +12,8 @@ folder for detailed task breakdowns. Source of truth for scope: [../SPEC.md](../
 - [ ] M0 — Spec finalized and approved (Sections 1–14 reviewed)
 - [ ] M1 — Shared infrastructure up (`docker-compose.yml`: postgres+pgvector, qdrant, ollama)
 - [ ] M2 — Postgres lineage schema created (Section 9.1 DDL applied via migration)
-- [ ] M3 — Project 1 (Chunking) MVP: docling + chonkie working end-to-end on sample docs
-- [ ] M4 — Project 1 derivative artifacts (contextual, RAPTOR, summary, QA, factoids) working
+- [x] M3 — Project 1 (Chunking) MVP: docling + chonkie working end-to-end on sample docs
+- [x] M4 — Project 1 derivative artifacts (contextual, RAPTOR, summary, QA, factoids) working
 - [ ] M5 — Project 3 (Vector API) MVP: CRUD + search against Postgres backend
 - [ ] M6 — Project 3 Qdrant adapter working, backend switch verified via config only
 - [ ] M7 — Project 2 (Loader): manifest → embeddings → Project 3, idempotent reprocessing verified
@@ -26,7 +26,7 @@ folder for detailed task breakdowns. Source of truth for scope: [../SPEC.md](../
 
 | Project | Status | Checklist |
 |---|---|---|
-| Project 1 — Chunking | Not started | [project1-chunking-checklist.md](project1-chunking-checklist.md) |
+| Project 1 — Chunking | Complete — 5/5 steps done, 30/30 tests passing | [project1-chunking-checklist.md](project1-chunking-checklist.md) |
 | Project 2 — Loader | Not started | [project2-loader-checklist.md](project2-loader-checklist.md) |
 | Project 3 — Vector API | Not started | [project3-vector-api-checklist.md](project3-vector-api-checklist.md) |
 | Project 4 — RAG Search | Not started | [project4-rag-search-checklist.md](project4-rag-search-checklist.md) |
